@@ -1,10 +1,10 @@
-<?php 
+<?php
 session_start();
 $user=$_SESSION['user'];
 if (!isset($_SESSION['user'])){
 	header ("location:index.php");
 }
-  ?> 
+  ?>
 
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
@@ -24,8 +24,8 @@ if (!isset($_SESSION['user'])){
             <!-- navbar-top-links -->
             <ul class="nav navbar-top-links navbar-right">
                 <!-- main dropdown -->
-                
-                
+
+
 
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -33,7 +33,7 @@ if (!isset($_SESSION['user'])){
                     </a>
                     <!-- dropdown user-->
                     <ul class="dropdown-menu dropdown-user">
-                        
+
                         <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
                         </li>
                     </ul>
@@ -44,7 +44,7 @@ if (!isset($_SESSION['user'])){
             <!-- end navbar-top-links -->
 
         </nav>
-		
+
 		<br>
 		<br>
 		<br>

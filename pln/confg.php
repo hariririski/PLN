@@ -1,3 +1,3 @@
 <?php
-$db = mysqli_connect('localhost', 'root', '', 'sijandamanja');
+include("../share/koneksi.php");
 ?>
