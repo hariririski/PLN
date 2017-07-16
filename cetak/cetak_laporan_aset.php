@@ -104,6 +104,36 @@ $strhtml .="<br>";
     </table>
 	
 	";
+	
+	$strhtml.="
+	<BR>
+	<BR>
+	<table  align='right' border='0' width='20%' >
+		<tr>
+		<td>Banda Aceh, ".date('l F Y ')."</td>
+		</tr>
+		<tr>
+		<td>Manajer</td>
+		</tr>
+		<tr>
+		<td>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</td>
+		</tr>
+		<tr>
+		<td>(Ihami zikra)</td>
+		</tr>
+		<tr>
+		<td>1308001010011</td>
+		</tr>
+		
+	</table>
+	
+	";
 			
 			include("mpdf60/mpdf.php");
 
